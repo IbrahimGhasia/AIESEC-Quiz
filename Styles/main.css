@@ -99,7 +99,7 @@ body {
 @media (max-width: 500px) {
 	.container {
 		width: 345px;
-		height: 800px;
+		height: 700px;
 	}
 
 	.image img {
@@ -114,5 +114,6 @@ body {
 
 	.radio-btn label {
 		min-width: 210px;
+		font-size: 15px;
 	}
 }
