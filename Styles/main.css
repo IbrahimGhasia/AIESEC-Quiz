@@ -18,7 +18,6 @@ body {
 } */
 
 .card-1 {
-	/* display: none; */
 	width: 650px;
 	height: 650px;
 	border: 0px solid #f5cac3;
@@ -32,7 +31,6 @@ body {
 }
 
 .card-2 {
-	/* display: none; */
 	visibility: hidden;
 	width: 650px;
 	height: 650px;
@@ -47,7 +45,6 @@ body {
 }
 
 .card-3 {
-	/* display: none; */
 	visibility: hidden;
 	width: 650px;
 	height: 650px;
@@ -73,13 +70,14 @@ body {
 }
 
 .image img {
-	width: 610px;
-	height: 300px;
+	width: 500px;
+	height: 250px;
 	display: block;
 	margin-top: 1rem;
 	margin-left: auto;
 	margin-right: auto;
 	border-radius: 1rem 1rem 1rem 1rem;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 .radio-btn [type='radio'] {
