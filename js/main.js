@@ -1,28 +1,3 @@
-// let arrayOfElements = document.getElementsByClassName('radio-btn');
-// let lengthOfArray = arrayOfElements.length;
-
-// for (var i = 0; i < lengthOfArray; i++) {
-// 	arrayOfElements[i].style.display = '';
-// }
-
-// function changeService(id) {
-// 	document.getElementById(id).style.display = 'initial';
-// }
-
-// const change = document.querySelectorAll('[data-carousel-button]');
-
-// change.forEach((change) => {
-// 	change.addEventListener('click', () => {
-
-// 	});
-// });
-
-// const button = document.querySelector('card-1');
-// button.addEventListener('click', () => {
-// 	button.classList.add('card-2');
-// 	button.classList.remove('card-1');
-// });
-
 let btn1 = document.getElementById('btn-1');
 let btn2 = document.getElementById('btn-2');
 let btn3 = document.getElementById('btn-3');
@@ -87,37 +62,119 @@ document.getElementById('card5-opt1').onclick = function () {
 
 	setTimeout(function () {
 		output1.style.visibility = 'visible';
-	}, 2000);
+	}, 1000);
+
+	setTimeout(function () {
+		window.location.href = 'https://www.aiesec.in/registergv';
+	}, 7500);
 };
 
 document.getElementById('card5-opt2').onclick = function () {
 	setTimeout(function () {
-		output2.style.visibility = 'visible';
-	}, 2000);
+		output3.style.visibility = 'visible';
+	}, 1000);
+
+	setTimeout(function () {
+		window.location.href = 'https://www.aiesec.in/registergv';
+	}, 7500);
 };
 
 document.getElementById('card5-opt3').onclick = function () {
 	setTimeout(function () {
-		output3.style.visibility = 'visible';
-	}, 2000);
+		output2.style.visibility = 'visible';
+	}, 1000);
+
+	setTimeout(function () {
+		window.location.href = 'https://www.aiesec.in/registergv';
+	}, 7500);
 };
 
 document.getElementById('card5-opt4').onclick = function () {
 	setTimeout(function () {
 		output1.style.visibility = 'visible';
-	}, 2000);
+	}, 1000);
+
+	setTimeout(function () {
+		window.location.href = 'https://www.aiesec.in/registergv';
+	}, 7500);
 };
 
-// let card1 = document.getElementById('card-1');
-// let card2 = document.getElementById('card-2');
-// let card3 = document.getElementById('card-3');
-// let button1 = document.getElementById('btn-1');
-// let button2 = document.getElementById('btn-2');
+let button1 = document.getElementById('button1');
+let button2 = document.getElementById('button2');
+let button3 = document.getElementById('button3');
+let button4 = document.getElementById('button4');
 
-// button1.onclick = function () {
-// 	card2.style.display = 'initial';
-// };
+// for (let i = 0; i < 4; i++) {
+// 	document.getElementById('card1-opt' + i).onclick = function () {
+// 		console.log('Hello');
+// 		button1.style.visibility = 'visible';
+// 	};
+// }
 
-// button2.onclick = function () {
-// 	card3.style.display = 'initial';
-// };
+// For Card 1 Next Button
+document.getElementById('card1-opt1').onclick = function () {
+	button1.style.visibility = 'visible';
+};
+
+document.getElementById('card1-opt2').onclick = function () {
+	button1.style.visibility = 'visible';
+};
+
+document.getElementById('card1-opt3').onclick = function () {
+	button1.style.visibility = 'visible';
+};
+
+document.getElementById('card1-opt4').onclick = function () {
+	button1.style.visibility = 'visible';
+};
+
+// For Card 2 Next Button
+document.getElementById('card2-opt1').onclick = function () {
+	button2.style.visibility = 'visible';
+};
+
+document.getElementById('card2-opt2').onclick = function () {
+	button2.style.visibility = 'visible';
+};
+
+document.getElementById('card2-opt3').onclick = function () {
+	button2.style.visibility = 'visible';
+};
+
+document.getElementById('card2-opt4').onclick = function () {
+	button2.style.visibility = 'visible';
+};
+
+// For Card 3 Next Button
+document.getElementById('card3-opt1').onclick = function () {
+	button3.style.visibility = 'visible';
+};
+
+document.getElementById('card3-opt2').onclick = function () {
+	button3.style.visibility = 'visible';
+};
+
+document.getElementById('card3-opt3').onclick = function () {
+	button3.style.visibility = 'visible';
+};
+
+document.getElementById('card3-opt4').onclick = function () {
+	button3.style.visibility = 'visible';
+};
+
+// For Card 4 Next Button
+document.getElementById('card4-opt1').onclick = function () {
+	button4.style.visibility = 'visible';
+};
+
+document.getElementById('card4-opt2').onclick = function () {
+	button4.style.visibility = 'visible';
+};
+
+document.getElementById('card4-opt3').onclick = function () {
+	button4.style.visibility = 'visible';
+};
+
+document.getElementById('card4-opt4').onclick = function () {
+	button4.style.visibility = 'visible';
+};

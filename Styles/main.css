@@ -220,10 +220,6 @@ body {
 	transform: scale(1);
 }
 
-/* .next-slide {
-	transition: 20s ease-in-out;
-} */
-
 .btn {
 	margin: 0rem 2rem;
 	height: 30px;
@@ -249,6 +245,29 @@ body {
 .button {
 	display: flex;
 	justify-content: center;
+}
+
+#button1 {
+	visibility: hidden;
+}
+
+#button2 {
+	visibility: hidden;
+}
+
+#button3 {
+	visibility: hidden;
+}
+
+#button4 {
+	visibility: hidden;
+}
+
+.gen-res {
+	visibility: hidden;
+	text-align: center;
+	margin: 1rem;
+	font-weight: 500;
 }
 
 @media (max-width: 500px) {
