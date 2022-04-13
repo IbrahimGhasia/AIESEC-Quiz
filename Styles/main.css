@@ -41,7 +41,6 @@ body {
 	left: 50%;
 	top: 50%;
 	transform: translate(-50%, -50%);
-	transition: opacity 0.3s ease-in-out;
 }
 
 .card-3 {
@@ -55,6 +54,90 @@ body {
 	left: 50%;
 	top: 50%;
 	transform: translate(-50%, -50%);
+}
+
+.card-4 {
+	visibility: hidden;
+	width: 650px;
+	height: 650px;
+	border: 0px solid #f5cac3;
+	border-radius: 1.2rem;
+	background-color: #def2f1;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.card-5 {
+	visibility: hidden;
+	width: 650px;
+	height: 650px;
+	border: 0px solid #f5cac3;
+	border-radius: 1.2rem;
+	background-color: #def2f1;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.output1 {
+	visibility: hidden;
+	width: 650px;
+	height: 650px;
+	border: 0px solid #f5cac3;
+	border-radius: 1.2rem;
+	background-color: #def2f1;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.output2 {
+	visibility: hidden;
+	width: 650px;
+	height: 650px;
+	border: 0px solid #f5cac3;
+	border-radius: 1.2rem;
+	background-color: #def2f1;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.output3 {
+	visibility: hidden;
+	width: 650px;
+	height: 650px;
+	border: 0px solid #f5cac3;
+	border-radius: 1.2rem;
+	background-color: #def2f1;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.output-image img {
+	width: 600px;
+	display: block;
+	margin: 1rem;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 1rem 1rem 1rem 1rem;
+}
+
+.output-country p {
+	text-align: center;
+	color: #17252a;
+	margin: 1rem;
+	font-weight: 700;
+	text-decoration: underline;
+	font-size: 40px;
+	margin: 5rem 1rem;
 }
 
 .title {
@@ -182,6 +265,26 @@ body {
 	.card-3 {
 		width: 345px;
 		height: 700px;
+	}
+
+	.card-4 {
+		width: 345px;
+		height: 700px;
+	}
+
+	.card-5 {
+		width: 345px;
+		height: 700px;
+	}
+
+	.output1 {
+		width: 345px;
+		height: 700px;
+	}
+
+	.output-image img {
+		width: 320px;
+		height: 400px;
 	}
 
 	.image img {
