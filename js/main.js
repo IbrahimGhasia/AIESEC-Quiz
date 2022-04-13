@@ -87,25 +87,25 @@ document.getElementById('card5-opt1').onclick = function () {
 
 	setTimeout(function () {
 		output1.style.visibility = 'visible';
-	}, 3000);
+	}, 2000);
 };
 
 document.getElementById('card5-opt2').onclick = function () {
 	setTimeout(function () {
 		output2.style.visibility = 'visible';
-	}, 3000);
+	}, 2000);
 };
 
 document.getElementById('card5-opt3').onclick = function () {
 	setTimeout(function () {
 		output3.style.visibility = 'visible';
-	}, 3000);
+	}, 2000);
 };
 
 document.getElementById('card5-opt4').onclick = function () {
 	setTimeout(function () {
 		output1.style.visibility = 'visible';
-	}, 3000);
+	}, 2000);
 };
 
 // let card1 = document.getElementById('card-1');
